@@ -28,7 +28,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/error' do
-    erb: error
+    erb :error
   end
 
   get '/logout' do
